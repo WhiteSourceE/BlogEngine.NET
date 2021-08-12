@@ -1,0 +1,3364 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "SCS0005",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Weak random number generator."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Account/password-retrieval.aspx.cs"
+                },
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 33,
+                  "endLine": 81,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Widgets/LinkList/LinkList.cs"
+                },
+                "region": {
+                  "startLine": 119,
+                  "startColumn": 23,
+                  "endLine": 119,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Widgets/Newsletter/Newsletter.cs"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 23,
+                  "endLine": 102,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0018",
+          "ruleIndex": 2,
+          "level": "warning",
+          "message": {
+            "text": "Potential Path Traversal vulnerability was found where 'fileName' in 'FileInfo.FileInfo(string fileName)' may be tainted by user-controlled data from 'string HttpPostedFile.FileName' in method 'HttpResponseMessage UploadController.Post(string action, string dirPath = \"\")'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/AppCode/Api/UploadController.cs"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 41,
+                  "endLine": 26,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/AppCode/Api/UploadController.cs"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 41,
+                  "endLine": 26,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0027",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "Potential Open Redirect vulnerability was found where 'url' in 'void HttpResponse.Redirect(string url, bool endResponse)' may be tainted by user-controlled data from 'Uri HttpRequest.UrlReferrer' in method 'void Login.Page_Load(object sender, EventArgs e)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Account/login.aspx.cs"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 44,
+                  "endLine": 42,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Account/login.aspx.cs"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 44,
+                  "endLine": 42,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0029",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Potential Cross-Site Scripting (XSS) vulnerability was found where 'NavigateUrl' in 'HyperLink' may be tainted by user-controlled data from 'NameValueCollection HttpRequest.QueryString' in method 'void Login.Page_Load(object sender, EventArgs e)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Account/login.aspx.cs"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 13,
+                  "endLine": 32,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Account/login.aspx.cs"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 72,
+                  "endLine": 33,
+                  "endColumn": 96
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0027",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "Potential Open Redirect vulnerability was found where 'url' in 'void HttpResponse.Redirect(string url)' may be tainted by user-controlled data from 'string TextBox.Text' in method 'void CreateBlog.CreateUserButton_Click(object sender, EventArgs e)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Account/create-blog.aspx.cs"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 40,
+                  "endLine": 29,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Account/create-blog.aspx.cs"
+                },
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 31,
+                  "endLine": 23,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0027",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "Potential Open Redirect vulnerability was found where 'url' in 'void HttpResponse.Redirect(string url)' may be tainted by user-controlled data from 'string HttpRequest.RawUrl' in method 'void UserControlSettings.GridRowDeleting(object sender, GridViewDeleteEventArgs e)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/admin/Extensions/Settings.ascx.cs"
+                },
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 36,
+                  "endLine": 220,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/admin/Extensions/Settings.ascx.cs"
+                },
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 36,
+                  "endLine": 220,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0027",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "Potential Open Redirect vulnerability was found where 'url' in 'void HttpResponse.Redirect(string url)' may be tainted by user-controlled data from 'string HttpRequest.RawUrl' in method 'void UserControlSettings.GridRowUpdating(object sender, GridViewUpdateEventArgs e)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/admin/Extensions/Settings.ascx.cs"
+                },
+                "region": {
+                  "startLine": 278,
+                  "startColumn": 36,
+                  "endLine": 278,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/admin/Extensions/Settings.ascx.cs"
+                },
+                "region": {
+                  "startLine": 278,
+                  "startColumn": 36,
+                  "endLine": 278,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0029",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Potential Cross-Site Scripting (XSS) vulnerability was found where 'InnerHtml' in 'HtmlContainerControl' may be tainted by user-controlled data from 'string TextBox.Text' in method 'bool UserControlSettings.IsValidForm()'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/admin/Extensions/Settings.ascx.cs"
+                },
+                "region": {
+                  "startLine": 568,
+                  "startColumn": 21,
+                  "endLine": 568,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/admin/Extensions/Settings.ascx.cs"
+                },
+                "region": {
+                  "startLine": 568,
+                  "startColumn": 76,
+                  "endLine": 568,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0027",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "Potential Open Redirect vulnerability was found where 'url' in 'void HttpResponse.Redirect(string url, bool endResponse)' may be tainted by user-controlled data from 'string HttpRequest.RawUrl' in method 'void CommentList.ApproveAllComments()'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Controls/CommentList.ascx.cs"
+                },
+                "region": {
+                  "startLine": 762,
+                  "startColumn": 31,
+                  "endLine": 762,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Controls/CommentList.ascx.cs"
+                },
+                "region": {
+                  "startLine": 760,
+                  "startColumn": 25,
+                  "endLine": 760,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0027",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "Potential Open Redirect vulnerability was found where 'url' in 'void HttpResponse.Redirect(string url, bool endResponse)' may be tainted by user-controlled data from 'string HttpRequest.RawUrl' in method 'void CommentList.ApproveAllComments()'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Controls/CommentList.ascx.cs"
+                },
+                "region": {
+                  "startLine": 762,
+                  "startColumn": 31,
+                  "endLine": 762,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Controls/CommentList.ascx.cs"
+                },
+                "region": {
+                  "startLine": 761,
+                  "startColumn": 23,
+                  "endLine": 761,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0027",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "Potential Open Redirect vulnerability was found where 'url' in 'void HttpResponse.Redirect(string url, bool endResponse)' may be tainted by user-controlled data from 'string HttpRequest.RawUrl' in method 'void CommentList.ApproveComment()'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Controls/CommentList.ascx.cs"
+                },
+                "region": {
+                  "startLine": 780,
+                  "startColumn": 35,
+                  "endLine": 780,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Controls/CommentList.ascx.cs"
+                },
+                "region": {
+                  "startLine": 778,
+                  "startColumn": 29,
+                  "endLine": 778,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0027",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "Potential Open Redirect vulnerability was found where 'url' in 'void HttpResponse.Redirect(string url, bool endResponse)' may be tainted by user-controlled data from 'string HttpRequest.RawUrl' in method 'void CommentList.ApproveComment()'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Controls/CommentList.ascx.cs"
+                },
+                "region": {
+                  "startLine": 780,
+                  "startColumn": 35,
+                  "endLine": 780,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Controls/CommentList.ascx.cs"
+                },
+                "region": {
+                  "startLine": 779,
+                  "startColumn": 27,
+                  "endLine": 779,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0027",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "Potential Open Redirect vulnerability was found where 'url' in 'void HttpResponse.Redirect(string url, bool endResponse)' may be tainted by user-controlled data from 'string HttpRequest.RawUrl' in method 'void CommentList.DeleteComment()'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Controls/CommentList.ascx.cs"
+                },
+                "region": {
+                  "startLine": 818,
+                  "startColumn": 35,
+                  "endLine": 818,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Controls/CommentList.ascx.cs"
+                },
+                "region": {
+                  "startLine": 817,
+                  "startColumn": 56,
+                  "endLine": 817,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0027",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "Potential Open Redirect vulnerability was found where 'url' in 'void HttpResponse.Redirect(string url, bool endResponse)' may be tainted by user-controlled data from 'string HttpRequest.RawUrl' in method 'void CommentList.DeleteComment()'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Controls/CommentList.ascx.cs"
+                },
+                "region": {
+                  "startLine": 818,
+                  "startColumn": 35,
+                  "endLine": 818,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Controls/CommentList.ascx.cs"
+                },
+                "region": {
+                  "startLine": 816,
+                  "startColumn": 29,
+                  "endLine": 816,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0027",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "Potential Open Redirect vulnerability was found where 'url' in 'void HttpResponse.Redirect(string url, bool endResponse)' may be tainted by user-controlled data from 'string HttpRequest.RawUrl' in method 'void CommentList.DeleteCommentAndChildren()'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Controls/CommentList.ascx.cs"
+                },
+                "region": {
+                  "startLine": 850,
+                  "startColumn": 35,
+                  "endLine": 850,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Controls/CommentList.ascx.cs"
+                },
+                "region": {
+                  "startLine": 849,
+                  "startColumn": 56,
+                  "endLine": 849,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0027",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "Potential Open Redirect vulnerability was found where 'url' in 'void HttpResponse.Redirect(string url, bool endResponse)' may be tainted by user-controlled data from 'string HttpRequest.RawUrl' in method 'void CommentList.DeleteCommentAndChildren()'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Controls/CommentList.ascx.cs"
+                },
+                "region": {
+                  "startLine": 850,
+                  "startColumn": 35,
+                  "endLine": 850,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Controls/CommentList.ascx.cs"
+                },
+                "region": {
+                  "startLine": 848,
+                  "startColumn": 29,
+                  "endLine": 848,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0029",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Potential Cross-Site Scripting (XSS) vulnerability was found where 'Text' in 'TextBox' may be tainted by user-controlled data from 'NameValueCollection HttpRequest.QueryString' in method 'void contact.OnLoad(EventArgs e)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/contact.aspx.cs"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 13,
+                  "endLine": 27,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/contact.aspx.cs"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 31,
+                  "endLine": 27,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0029",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Potential Cross-Site Scripting (XSS) vulnerability was found where 'Text' in 'TextBox' may be tainted by user-controlled data from 'NameValueCollection HttpRequest.QueryString' in method 'void contact.OnLoad(EventArgs e)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/contact.aspx.cs"
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 13,
+                  "endLine": 28,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/contact.aspx.cs"
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 28,
+                  "endLine": 28,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0029",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Potential Cross-Site Scripting (XSS) vulnerability was found where 'Text' in 'TextBox' may be tainted by user-controlled data from 'NameValueCollection HttpRequest.QueryString' in method 'void contact.OnLoad(EventArgs e)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/contact.aspx.cs"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 13,
+                  "endLine": 29,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/contact.aspx.cs"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 29,
+                  "endLine": 29,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0029",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Potential Cross-Site Scripting (XSS) vulnerability was found where 'Text' in 'TextBox' may be tainted by user-controlled data from 'HttpCookieCollection HttpRequest.Cookies' in method 'void contact.GetCookie()'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/contact.aspx.cs"
+                },
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 4,
+                  "endLine": 169,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/contact.aspx.cs"
+                },
+                "region": {
+                  "startLine": 166,
+                  "startColumn": 23,
+                  "endLine": 166,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0029",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Potential Cross-Site Scripting (XSS) vulnerability was found where 'Text' in 'TextBox' may be tainted by user-controlled data from 'HttpCookieCollection HttpRequest.Cookies' in method 'void contact.GetCookie()'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/contact.aspx.cs"
+                },
+                "region": {
+                  "startLine": 170,
+                  "startColumn": 4,
+                  "endLine": 170,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/contact.aspx.cs"
+                },
+                "region": {
+                  "startLine": 166,
+                  "startColumn": 23,
+                  "endLine": 166,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0029",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Potential Cross-Site Scripting (XSS) vulnerability was found where 'value' in 'void HttpResponse.AppendHeader(string name, string value)' may be tainted by user-controlled data from 'NameValueCollection HttpRequest.QueryString' in method 'void _default.Redirect()'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/default.aspx.cs"
+                },
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 38,
+                  "endLine": 183,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/default.aspx.cs"
+                },
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 18,
+                  "endLine": 159,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0029",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Potential Cross-Site Scripting (XSS) vulnerability was found where 'value' in 'void HttpResponse.AppendHeader(string name, string value)' may be tainted by user-controlled data from 'NameValueCollection HttpRequest.QueryString' in method 'void _default.Redirect()'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/default.aspx.cs"
+                },
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 38,
+                  "endLine": 183,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/default.aspx.cs"
+                },
+                "region": {
+                  "startLine": 158,
+                  "startColumn": 17,
+                  "endLine": 158,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0029",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Potential Cross-Site Scripting (XSS) vulnerability was found where 'value' in 'void HttpResponse.AppendHeader(string name, string value)' may be tainted by user-controlled data from 'NameValueCollection HttpRequest.QueryString' in method 'void _default.Redirect()'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/default.aspx.cs"
+                },
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 38,
+                  "endLine": 183,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/default.aspx.cs"
+                },
+                "region": {
+                  "startLine": 161,
+                  "startColumn": 95,
+                  "endLine": 161,
+                  "endColumn": 114
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0029",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Potential Cross-Site Scripting (XSS) vulnerability was found where 'value' in 'void HttpResponse.AppendHeader(string name, string value)' may be tainted by user-controlled data from 'Uri HttpRequest.Url' in method 'void post.OnInit(EventArgs e)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/post.aspx.cs"
+                },
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 61,
+                  "endLine": 122,
+                  "endColumn": 135
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/post.aspx.cs"
+                },
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 73,
+                  "endLine": 122,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0021",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Request validation has been disabled."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/search.aspx"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0021",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Request validation has been disabled."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/contact.aspx"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0021",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Request validation has been disabled."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/post.aspx"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0008",
+          "ruleIndex": 6,
+          "level": "warning",
+          "message": {
+            "text": "The cookie is missing 'Secure' flag."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/contact.aspx.cs"
+                },
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 24,
+                  "endLine": 188,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0008",
+          "ruleIndex": 6,
+          "level": "warning",
+          "message": {
+            "text": "The cookie is missing 'Secure' flag."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Controls/CommentList.ascx.cs"
+                },
+                "region": {
+                  "startLine": 965,
+                  "startColumn": 34,
+                  "endLine": 965,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0009",
+          "ruleIndex": 7,
+          "level": "warning",
+          "message": {
+            "text": "The cookie is missing 'HttpOnly' flag."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/contact.aspx.cs"
+                },
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 24,
+                  "endLine": 188,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0009",
+          "ruleIndex": 7,
+          "level": "warning",
+          "message": {
+            "text": "The cookie is missing 'HttpOnly' flag."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Custom/Controls/CommentList.ascx.cs"
+                },
+                "region": {
+                  "startLine": 965,
+                  "startColumn": 34,
+                  "endLine": 965,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0023",
+          "ruleIndex": 8,
+          "level": "warning",
+          "message": {
+            "text": "View state is not encrypted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/admin/Web.Config"
+                },
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 1,
+                  "endLine": 4,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0023",
+          "ruleIndex": 8,
+          "level": "warning",
+          "message": {
+            "text": "View state is not encrypted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/admin/app/editor/Web.Config"
+                },
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 1,
+                  "endLine": 4,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0030",
+          "ruleIndex": 9,
+          "level": "warning",
+          "message": {
+            "text": "Request validation is enabled only for pages, not for all HTTP requests. D:\\UploadingProjects\\BlogEngine.NET\\BlogEngine\\BlogEngine.NET\\Web.config(90): <httpRuntime targetFramework=\"4.5\" enableVersionHeader=\"false\" useFullyQualifiedRedirectUrl=\"true\" maxRequestLength=\"16384\" executionTimeout=\"3600\" requestLengthDiskThreshold=\"16384\" requestValidationMode=\"2.0\" requestPathInvalidCharacters=\"&lt;,&gt;,*,\\\" />."
+          },
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0023",
+          "ruleIndex": 8,
+          "level": "warning",
+          "message": {
+            "text": "View state is not encrypted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Web.config"
+                },
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 1,
+                  "endLine": 98,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0023",
+          "ruleIndex": 8,
+          "level": "warning",
+          "message": {
+            "text": "View state is not encrypted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/Account/Web.Config"
+                },
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0023",
+          "ruleIndex": 8,
+          "level": "warning",
+          "message": {
+            "text": "View state is not encrypted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/setup/Web.config"
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "endLine": 3,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0018",
+          "ruleIndex": 2,
+          "level": "warning",
+          "message": {
+            "text": "Potential Path Traversal vulnerability was found where 'path' in 'FileStream.FileStream(string path, FileMode mode)' may be tainted by user-controlled data from 'string id' in method 'HttpResponseMessage ToolsController.Get(string id)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/AppCode/Api/ToolsController.cs"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 55,
+                  "endLine": 73,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/AppCode/Api/ToolsController.cs"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 36,
+                  "endLine": 16,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0018",
+          "ruleIndex": 2,
+          "level": "warning",
+          "message": {
+            "text": "Potential Path Traversal vulnerability was found where 'path' in 'void File.Delete(string path)' may be tainted by user-controlled data from 'string id' in method 'HttpResponseMessage ToolsController.Get(string id)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/AppCode/Api/ToolsController.cs"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 25,
+                  "endLine": 96,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.NET/AppCode/Api/ToolsController.cs"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 36,
+                  "endLine": 16,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0006",
+          "ruleIndex": 10,
+          "level": "warning",
+          "message": {
+            "text": "Weak hashing function."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Data/Services/Avatar.cs"
+                },
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 29,
+                  "endLine": 103,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0006",
+          "ruleIndex": 11,
+          "level": "warning",
+          "message": {
+            "text": "Weak hashing function."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/HttpHandlers/Sioc.cs"
+                },
+                "region": {
+                  "startLine": 157,
+                  "startColumn": 39,
+                  "endLine": 157,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0006",
+          "ruleIndex": 11,
+          "level": "warning",
+          "message": {
+            "text": "Weak hashing function."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/HttpHandlers/Foaf.cs"
+                },
+                "region": {
+                  "startLine": 117,
+                  "startColumn": 39,
+                  "endLine": 117,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0005",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Weak random number generator."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/API/MetaWeblog/XMLRPCRequest.cs"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 26,
+                  "endLine": 41,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/API/MetaWeblog/XMLRPCRequest.cs"
+                },
+                "region": {
+                  "startLine": 330,
+                  "startColumn": 27,
+                  "endLine": 330,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0005",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Weak random number generator."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Helpers/Utils.cs"
+                },
+                "region": {
+                  "startLine": 989,
+                  "startColumn": 25,
+                  "endLine": 989,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Helpers/Utils.cs"
+                },
+                "region": {
+                  "startLine": 1558,
+                  "startColumn": 27,
+                  "endLine": 1558,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0026",
+          "ruleIndex": 12,
+          "level": "warning",
+          "message": {
+            "text": "Potential LDAP injection vulnerability was found where 'path' in 'DirectoryEntry.DirectoryEntry(string path)' may be tainted by user-controlled data from 'NameValueCollection HttpRequest.ServerVariables' in method 'bool Utils.RecycleIIS()'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Helpers/Utils.cs"
+                },
+                "region": {
+                  "startLine": 1406,
+                  "startColumn": 57,
+                  "endLine": 1406,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Helpers/Utils.cs"
+                },
+                "region": {
+                  "startLine": 1403,
+                  "startColumn": 30,
+                  "endLine": 1403,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Services/Syndication/BlogML/BlogReader.cs"
+                },
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 24,
+                  "endLine": 62,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Services/Syndication/BlogML/BlogReader.cs"
+                },
+                "region": {
+                  "startLine": 186,
+                  "startColumn": 23,
+                  "endLine": 186,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Data/WidgetsRepository.cs"
+                },
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 39,
+                  "endLine": 40,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Helpers/BlogGeneratorConfig.cs"
+                },
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 27,
+                  "endLine": 72,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Helpers/BlogGeneratorConfig.cs"
+                },
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 23,
+                  "endLine": 123,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/Blogs.cs"
+                },
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 23,
+                  "endLine": 54,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/CustomFields.cs"
+                },
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 23,
+                  "endLine": 80,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/CustomFields.cs"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 26,
+                  "endLine": 102,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/CustomFields.cs"
+                },
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 26,
+                  "endLine": 140,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/XmlMembershipProvider.cs"
+                },
+                "region": {
+                  "startLine": 239,
+                  "startColumn": 23,
+                  "endLine": 239,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/XmlMembershipProvider.cs"
+                },
+                "region": {
+                  "startLine": 312,
+                  "startColumn": 23,
+                  "endLine": 312,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/XmlMembershipProvider.cs"
+                },
+                "region": {
+                  "startLine": 369,
+                  "startColumn": 23,
+                  "endLine": 369,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/XmlMembershipProvider.cs"
+                },
+                "region": {
+                  "startLine": 543,
+                  "startColumn": 23,
+                  "endLine": 543,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/XmlMembershipProvider.cs"
+                },
+                "region": {
+                  "startLine": 571,
+                  "startColumn": 23,
+                  "endLine": 571,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/XmlMembershipProvider.cs"
+                },
+                "region": {
+                  "startLine": 673,
+                  "startColumn": 23,
+                  "endLine": 673,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/XmlMembershipProvider.cs"
+                },
+                "region": {
+                  "startLine": 726,
+                  "startColumn": 23,
+                  "endLine": 726,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/XmlMembershipProvider.cs"
+                },
+                "region": {
+                  "startLine": 868,
+                  "startColumn": 27,
+                  "endLine": 868,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/Packaging.cs"
+                },
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 23,
+                  "endLine": 121,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/Packaging.cs"
+                },
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 23,
+                  "endLine": 147,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/Packaging.cs"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 26,
+                  "endLine": 177,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/Packaging.cs"
+                },
+                "region": {
+                  "startLine": 202,
+                  "startColumn": 22,
+                  "endLine": 202,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Services/Packaging/FileSystem.cs"
+                },
+                "region": {
+                  "startLine": 468,
+                  "startColumn": 45,
+                  "endLine": 468,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/Rights.cs"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 27,
+                  "endLine": 41,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/XmlRoleProvider.cs"
+                },
+                "region": {
+                  "startLine": 512,
+                  "startColumn": 31,
+                  "endLine": 512,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/PingServices.cs"
+                },
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 23,
+                  "endLine": 34,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/BlogRoll.cs"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 23,
+                  "endLine": 45,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/Categories.cs"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 23,
+                  "endLine": 55,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/Extensions/DataStore/XMLDocumentBehavior.cs"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 23,
+                  "endLine": 46,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/Profiles.cs"
+                },
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 23,
+                  "endLine": 178,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/Referrers.cs"
+                },
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 23,
+                  "endLine": 123,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/Settings.cs"
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 23,
+                  "endLine": 28,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/Pages.cs"
+                },
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 23,
+                  "endLine": 110,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Providers/XmlProvider/Posts.cs"
+                },
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 23,
+                  "endLine": 220,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/HttpHandlers/PingbackHandler.cs"
+                },
+                "region": {
+                  "startLine": 363,
+                  "startColumn": 23,
+                  "endLine": 363,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0007",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential XML eXternal Entity (XXE) vulnerability."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Data/StatsRepository.cs"
+                },
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 27,
+                  "endLine": 54,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0027",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "Potential Open Redirect vulnerability was found where 'url' in 'void HttpResponse.Redirect(string url)' may be tainted by user-controlled data from 'NameValueCollection HttpRequest.QueryString' in method 'bool Security.AuthenticateUser(string username, string password, bool rememberMe)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Services/Security/Security.cs"
+                },
+                "region": {
+                  "startLine": 190,
+                  "startColumn": 51,
+                  "endLine": 190,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Services/Security/Security.cs"
+                },
+                "region": {
+                  "startLine": 185,
+                  "startColumn": 40,
+                  "endLine": 185,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0027",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "Potential Open Redirect vulnerability was found where 'url' in 'void HttpResponse.Redirect(string url)' may be tainted by user-controlled data from 'string HttpRequest.RawUrl' in method 'void Security.RedirectForUnauthorizedRequest()'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Services/Security/Security.cs"
+                },
+                "region": {
+                  "startLine": 357,
+                  "startColumn": 43,
+                  "endLine": 357,
+                  "endColumn": 169
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Services/Security/Security.cs"
+                },
+                "region": {
+                  "startLine": 357,
+                  "startColumn": 145,
+                  "endLine": 357,
+                  "endColumn": 167
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0027",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "Potential Open Redirect vulnerability was found where 'url' in 'void HttpResponse.RedirectPermanent(string url)' may be tainted by user-controlled data from 'string HttpRequest.RawUrl' in method 'void UrlRewrite.RedirectToRemoveFileExtension(HttpContext context, Blog blogInstance, string url, string path)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/HttpModules/UrlRewrite.cs"
+                },
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 56,
+                  "endLine": 139,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/HttpModules/UrlRewrite.cs"
+                },
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 38,
+                  "endLine": 134,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0029",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Potential Cross-Site Scripting (XSS) vulnerability was found where 'value' in 'void HtmlTextWriter.WriteAttribute(string name, string value, bool fEncode)' may be tainted by user-controlled data from 'string HttpRequest.RawUrl' in method 'void RewriteFormHtmlTextWriter.WriteAttribute(string name, string value, bool encode)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/Controls/RewriteFormHtmlTextWriter.cs"
+                },
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 39,
+                  "endLine": 83,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/Controls/RewriteFormHtmlTextWriter.cs"
+                },
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 33,
+                  "endLine": 77,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0029",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Potential Cross-Site Scripting (XSS) vulnerability was found where 'script' in 'void ClientScriptManager.RegisterStartupScript(Type type, string key, string script, bool addScriptTags)' may be tainted by user-controlled data from 'Uri HttpRequest.Url' in method 'void Helpers.AddTrackingScript(Page page)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/Scripting/Helpers.cs"
+                },
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 85,
+                  "endLine": 139,
+                  "endColumn": 93
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/Scripting/Helpers.cs"
+                },
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 105,
+                  "endLine": 123,
+                  "endColumn": 121
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0029",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Potential Cross-Site Scripting (XSS) vulnerability was found where 'value' in 'void HttpResponse.AppendHeader(string name, string value)' may be tainted by user-controlled data from 'NameValueCollection HttpRequest.QueryString' in method 'void FileHandler.ProcessRequest(HttpContext context)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/HttpHandlers/FileHandler.cs"
+                },
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 78,
+                  "endLine": 88,
+                  "endColumn": 113
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/HttpHandlers/FileHandler.cs"
+                },
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 32,
+                  "endLine": 71,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0029",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Potential Cross-Site Scripting (XSS) vulnerability was found where 'buffer' in 'void HttpResponse.BinaryWrite(byte[] buffer)' may be tainted by user-controlled data from 'NameValueCollection HttpRequest.QueryString' in method 'void FileHandler.ProcessRequest(HttpContext context)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/HttpHandlers/FileHandler.cs"
+                },
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 54,
+                  "endLine": 93,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/HttpHandlers/FileHandler.cs"
+                },
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 32,
+                  "endLine": 71,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0029",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Potential Cross-Site Scripting (XSS) vulnerability was found where 'buffer' in 'void HttpResponse.BinaryWrite(byte[] buffer)' may be tainted by user-controlled data from 'NameValueCollection HttpRequest.QueryString' in method 'void ImageHandler.ProcessRequest(HttpContext context)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/HttpHandlers/ImageHandler.cs"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 54,
+                  "endLine": 96,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/HttpHandlers/ImageHandler.cs"
+                },
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 32,
+                  "endLine": 71,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0008",
+          "ruleIndex": 6,
+          "level": "warning",
+          "message": {
+            "text": "The cookie is missing 'Secure' flag."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Services/Security/Security.cs"
+                },
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 54,
+                  "endLine": 130,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0008",
+          "ruleIndex": 6,
+          "level": "warning",
+          "message": {
+            "text": "The cookie is missing 'Secure' flag."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Services/Security/Security.cs"
+                },
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 50,
+                  "endLine": 183,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0008",
+          "ruleIndex": 6,
+          "level": "warning",
+          "message": {
+            "text": "The cookie is missing 'Secure' flag."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/HttpHandlers/RatingHandler.cs"
+                },
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 42,
+                  "endLine": 128,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0009",
+          "ruleIndex": 7,
+          "level": "warning",
+          "message": {
+            "text": "The cookie is missing 'HttpOnly' flag."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Services/Security/Security.cs"
+                },
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 54,
+                  "endLine": 130,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0009",
+          "ruleIndex": 7,
+          "level": "warning",
+          "message": {
+            "text": "The cookie is missing 'HttpOnly' flag."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/HttpHandlers/RatingHandler.cs"
+                },
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 42,
+                  "endLine": 128,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0027",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "Potential Open Redirect vulnerability was found where 'url' in 'void HttpResponse.RedirectPermanent(string url)' may be tainted by user-controlled data from 'string HttpRequest.RawUrl' in method 'void UrlRewrite.RedirectToRemoveFileExtension(HttpContext context, Blog blogInstance, string url, string path)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/HttpModules/UrlRewrite.cs"
+                },
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 56,
+                  "endLine": 139,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/HttpModules/UrlRewrite.cs"
+                },
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 38,
+                  "endLine": 134,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0029",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Potential Cross-Site Scripting (XSS) vulnerability was found where 'value' in 'void HttpResponse.AppendHeader(string name, string value)' may be tainted by user-controlled data from 'Uri HttpRequest.Url' in method 'void WwwSubDomainModule.AddWww(HttpContext context)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/HttpModules/WwwSubDomainModule.cs"
+                },
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 55,
+                  "endLine": 80,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/HttpModules/WwwSubDomainModule.cs"
+                },
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 23,
+                  "endLine": 58,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0029",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Potential Cross-Site Scripting (XSS) vulnerability was found where 'value' in 'void HttpResponse.AppendHeader(string name, string value)' may be tainted by user-controlled data from 'Uri HttpRequest.Url' in method 'void WwwSubDomainModule.RemoveWww(HttpContext context)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/HttpModules/WwwSubDomainModule.cs"
+                },
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 55,
+                  "endLine": 80,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/UploadingProjects/BlogEngine.NET/BlogEngine/BlogEngine.Core/Web/HttpModules/WwwSubDomainModule.cs"
+                },
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 23,
+                  "endLine": 92,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "Security Code Scan",
+          "version": "5.2.2.0",
+          "dottedQuadFileVersion": "5.2.2.0",
+          "semanticVersion": "5.2.2",
+          "language": "en-US",
+          "rules": [
+            {
+              "id": "SCS0005",
+              "shortDescription": {
+                "text": "Weak random number generator."
+              },
+              "fullDescription": {
+                "text": "It is possible to predict the next numbers of a pseudo random generator. Use a cryptographically strong generator for security sensitive purposes."
+              },
+              "helpUri": "https://security-code-scan.github.io/#SCS0005",
+              "properties": {
+                "category": "Security"
+              }
+            },
+            {
+              "id": "SCS0007",
+              "shortDescription": {
+                "text": "Potential XML eXternal Entity (XXE) vulnerability."
+              },
+              "fullDescription": {
+                "text": "Unsafe configuration of the XML parser may lead to XML eXternal Entity (XXE) processing vulnerability."
+              },
+              "helpUri": "https://security-code-scan.github.io/#SCS0007",
+              "properties": {
+                "category": "Security"
+              }
+            },
+            {
+              "id": "SCS0018",
+              "shortDescription": {
+                "text": "Potential Path Traversal vulnerability was found where '{0}' in '{1}' may be tainted by user-controlled data from '{2}' in method '{3}'."
+              },
+              "fullDescription": {
+                "text": "The untrusted value passed to the redirect should be validated."
+              },
+              "helpUri": "https://security-code-scan.github.io/#SCS0018",
+              "properties": {
+                "category": "Security"
+              }
+            },
+            {
+              "id": "SCS0027",
+              "shortDescription": {
+                "text": "Potential Open Redirect vulnerability was found where '{0}' in '{1}' may be tainted by user-controlled data from '{2}' in method '{3}'."
+              },
+              "fullDescription": {
+                "text": "The untrusted value passed to the redirect should be validated."
+              },
+              "helpUri": "https://security-code-scan.github.io/#SCS0027",
+              "properties": {
+                "category": "Security"
+              }
+            },
+            {
+              "id": "SCS0029",
+              "shortDescription": {
+                "text": "Potential Cross-Site Scripting (XSS) vulnerability was found where '{0}' in '{1}' may be tainted by user-controlled data from '{2}' in method '{3}'."
+              },
+              "fullDescription": {
+                "text": "The untrusted value used to create a HTML should be validated or properly encoded."
+              },
+              "helpUri": "https://security-code-scan.github.io/#SCS0029",
+              "properties": {
+                "category": "Security"
+              }
+            },
+            {
+              "id": "SCS0021",
+              "shortDescription": {
+                "text": "Request validation has been disabled."
+              },
+              "properties": {
+                "category": "Security"
+              }
+            },
+            {
+              "id": "SCS0008",
+              "shortDescription": {
+                "text": "The cookie is missing 'Secure' flag."
+              },
+              "fullDescription": {
+                "text": "Cookies without 'Secure' flag may be transmitted over unencrypted connection."
+              },
+              "helpUri": "https://security-code-scan.github.io/#SCS0008",
+              "properties": {
+                "category": "Security"
+              }
+            },
+            {
+              "id": "SCS0009",
+              "shortDescription": {
+                "text": "The cookie is missing 'HttpOnly' flag."
+              },
+              "fullDescription": {
+                "text": "Cookies without 'HttpOnly' may be stolen in case of JavaScript injection (XSS)."
+              },
+              "helpUri": "https://security-code-scan.github.io/#SCS0009",
+              "properties": {
+                "category": "Security"
+              }
+            },
+            {
+              "id": "SCS0023",
+              "shortDescription": {
+                "text": "View state is not encrypted."
+              },
+              "properties": {
+                "category": "Security"
+              }
+            },
+            {
+              "id": "SCS0030",
+              "shortDescription": {
+                "text": "Request validation is enabled only for pages, not for all HTTP requests. {0}({1}): {2}."
+              },
+              "fullDescription": {
+                "text": "The RequestValidationMode property specifies which ASP.NET approach to validation will be used."
+              },
+              "helpUri": "https://security-code-scan.github.io/#SCS0030",
+              "properties": {
+                "category": "Security"
+              }
+            },
+            {
+              "id": "SCS0006",
+              "shortDescription": {
+                "text": "Weak hashing function."
+              },
+              "fullDescription": {
+                "text": "MD5 is no longer considered as a strong hashing algorithm."
+              },
+              "helpUri": "https://security-code-scan.github.io/#SCS0006",
+              "properties": {
+                "category": "Security"
+              }
+            },
+            {
+              "id": "SCS0006",
+              "shortDescription": {
+                "text": "Weak hashing function."
+              },
+              "fullDescription": {
+                "text": "SHA1 is no longer considered as a strong hashing algorithm."
+              },
+              "helpUri": "https://security-code-scan.github.io/#SCS0006",
+              "properties": {
+                "category": "Security"
+              }
+            },
+            {
+              "id": "SCS0026",
+              "shortDescription": {
+                "text": "Potential LDAP injection vulnerability was found where '{0}' in '{1}' may be tainted by user-controlled data from '{2}' in method '{3}'."
+              },
+              "fullDescription": {
+                "text": "The untrusted value passed to the LDAP query should be validated."
+              },
+              "helpUri": "https://security-code-scan.github.io/#SCS0026",
+              "properties": {
+                "category": "Security"
+              }
+            }
+          ]
+        }
+      },
+      "columnKind": "utf16CodeUnits"
+    }
+  ]
+}

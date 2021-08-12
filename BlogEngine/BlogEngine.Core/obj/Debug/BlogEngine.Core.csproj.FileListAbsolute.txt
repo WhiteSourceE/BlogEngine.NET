@@ -1,0 +1,16 @@
+D:\UploadingProjects\BlogEngine.NET\BlogEngine\BlogEngine.Core\bin\Debug\BlogEngine.Core.XML
+D:\UploadingProjects\BlogEngine.NET\BlogEngine\BlogEngine.Core\bin\Debug\BlogEngine.Core.dll
+D:\UploadingProjects\BlogEngine.NET\BlogEngine\BlogEngine.Core\bin\Debug\BlogEngine.Core.pdb
+D:\UploadingProjects\BlogEngine.NET\BlogEngine\BlogEngine.Core\bin\Debug\AjaxMin.dll
+D:\UploadingProjects\BlogEngine.NET\BlogEngine\BlogEngine.Core\bin\Debug\BlogML.dll
+D:\UploadingProjects\BlogEngine.NET\BlogEngine\BlogEngine.Core\bin\Debug\Dynamic.dll
+D:\UploadingProjects\BlogEngine.NET\BlogEngine\BlogEngine.Core\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\UploadingProjects\BlogEngine.NET\BlogEngine\BlogEngine.Core\bin\Debug\Microsoft.Web.XmlTransform.dll
+D:\UploadingProjects\BlogEngine.NET\BlogEngine\BlogEngine.Core\bin\Debug\Newtonsoft.Json.dll
+D:\UploadingProjects\BlogEngine.NET\BlogEngine\BlogEngine.Core\bin\Debug\NuGet.Core.dll
+D:\UploadingProjects\BlogEngine.NET\BlogEngine\BlogEngine.Core\bin\Debug\Newtonsoft.Json.xml
+D:\UploadingProjects\BlogEngine.NET\BlogEngine\BlogEngine.Core\obj\Debug\BlogEngine.Core.csproj.AssemblyReference.cache
+D:\UploadingProjects\BlogEngine.NET\BlogEngine\BlogEngine.Core\obj\Debug\BlogEngine.Core.csproj.CoreCompileInputs.cache
+D:\UploadingProjects\BlogEngine.NET\BlogEngine\BlogEngine.Core\obj\Debug\BlogEngine.Core.csproj.CopyComplete
+D:\UploadingProjects\BlogEngine.NET\BlogEngine\BlogEngine.Core\obj\Debug\BlogEngine.Core.dll
+D:\UploadingProjects\BlogEngine.NET\BlogEngine\BlogEngine.Core\obj\Debug\BlogEngine.Core.pdb
